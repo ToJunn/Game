@@ -1,0 +1,34 @@
+# YOLO Evaluation on Oxford Pets Dataset
+
+This repository contains an evaluation of various YOLO versions on the Oxford Pets Dataset. The goal is to compare model performance regarding accuracy (mAP), and the ability to detect small objects.
+
+## 1.0 Dataset:
+
+- Dataset: Oxford Pets Dataset
+- Link**: [Oxford Pets Dataset](https://public.roboflow.com/object-detection/oxford-pets)
+- Train/Valid/Test split: 
+            + Train: 2,576 images
+            + Validation: 736 images
+            + Test: 368 images
+
+## 2.0 YOLO Versions Compared:
+We evaluate the following versions of YOLO:
+- YOLOv8s
+  + link: https://docs.ultralytics.com/vi/models/yolov8/
+- YOLOv9s
+  + link: https://docs.ultralytics.com/vi/models/yolov9/
+- YOLOv10s
+  + link: https://docs.ultralytics.com/vi/models/yolov10/
+
+## 2.1 Evaluate 10 epochs and 30 epochs - (Batchs: 32, Size: 224x224):
+  ![YOLO Evaluation Results 10 Epochs]()
+
+  
+
+## 3.0 How to Use
+
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/YOLO_Oxford_Pets_Evaluation.git
+cd YOLO_Oxford_Pets_Evaluation
+
